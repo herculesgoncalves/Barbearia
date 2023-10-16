@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^agendamento(.*)$ agendamentos.php [L]
+RewriteRule ^agendamentos(.*)$ agendamentos.php [L]
+RewriteRule ^produtos(.*)$ produtos.php [L]
+RewriteRule ^servicos(.*)$ servicos.php [L]
+RewriteRule ^index(.*)$ index.php [L]
+RewriteRule ^index.php(.*)$ index.php [L]
+

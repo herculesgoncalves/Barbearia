@@ -1,0 +1,46 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^comanda(.*)$ index.php?pag=comanda [L]
+RewriteRule ^usuarios(.*)$ index.php?pag=usuarios [L]
+RewriteRule ^funcionarios(.*)$ index.php?pag=funcionarios [L]
+
+RewriteRule ^clientes_retorno(.*)$ index.php?pag=clientes_retorno [L]
+RewriteRule ^clientes(.*)$ index.php?pag=clientes [L]
+
+RewriteRule ^fornecedores(.*)$ index.php?pag=fornecedores [L]
+
+RewriteRule ^cargos(.*)$ index.php?pag=cargos [L]
+RewriteRule ^cat_servicos(.*)$ index.php?pag=cat_servicos [L]
+RewriteRule ^grupos(.*)$ index.php?pag=grupos [L]
+RewriteRule ^acessos(.*)$ index.php?pag=acessos [L]
+RewriteRule ^pgto(.*)$ index.php?pag=pgto [L]
+RewriteRule ^produtos(.*)$ index.php?pag=produtos [L]
+RewriteRule ^cat_produtos(.*)$ index.php?pag=cat_produtos [L]
+RewriteRule ^estoque(.*)$ index.php?pag=estoque [L]
+RewriteRule ^saidas(.*)$ index.php?pag=saidas [L]
+RewriteRule ^entradas(.*)$ index.php?pag=entradas [L]
+RewriteRule ^vendas(.*)$ index.php?pag=vendas [L]
+RewriteRule ^compras(.*)$ index.php?pag=compras [L]
+RewriteRule ^pagar(.*)$ index.php?pag=pagar [L]
+RewriteRule ^receber(.*)$ index.php?pag=receber [L]
+RewriteRule ^comissoes(.*)$ index.php?pag=comissoes [L]
+
+RewriteRule ^agendamentos(.*)$ index.php?pag=agendamentos [L]
+RewriteRule ^servicos_agenda(.*)$ index.php?pag=servicos_agenda [L]
+RewriteRule ^marketing(.*)$ index.php?pag=marketing [L]
+RewriteRule ^textos_index(.*)$ index.php?pag=textos_index [L]
+RewriteRule ^comentarios(.*)$ index.php?pag=comentarios [L]
+RewriteRule ^agenda(.*)$ index.php?pag=agenda [L]
+RewriteRule ^meus_servicos(.*)$ index.php?pag=meus_servicos [L]
+RewriteRule ^minhas_comissoes(.*)$ index.php?pag=minhas_comissoes [L]
+
+RewriteRule ^dias_bloqueio_func(.*)$ index.php?pag=dias_bloqueio_func [L]
+RewriteRule ^dias_bloqueio(.*)$ index.php?pag=dias_bloqueio [L]
+RewriteRule ^dias(.*)$ index.php?pag=dias [L]
+RewriteRule ^servicos_func(.*)$ index.php?pag=servicos_func [L]
+
+RewriteRule ^servicos(.*)$ index.php?pag=servicos [L]
+RewriteRule ^calendario(.*)$ index.php?pag=calendario [L]
+RewriteRule ^configuracoes(.*)$ index.php?pag=configuracoes [L]
