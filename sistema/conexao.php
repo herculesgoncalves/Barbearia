@@ -2,10 +2,10 @@
 
 
 
-$banco = 'u613377332_nelhi';
-$usuario = 'u613377332_nelhi';
-$senha = '2r>trv7Cd;';
-$servidor = '154.56.48.52';
+$banco = '';
+$usuario = '';
+$senha = '';
+$servidor = '';
 
 
 $url_sistema = "http://$_SERVER[HTTP_HOST]/";
